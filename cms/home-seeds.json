@@ -1,0 +1,68 @@
+{
+  "fragments": [
+    {
+      "title": "Finance",
+      "body": "Budgeting and reporting separated from operational activity."
+    },
+    {
+      "title": "Operations",
+      "body": "Critical workflows hidden inside one-off tools and manual routines."
+    },
+    {
+      "title": "Customers",
+      "body": "Service history lives apart from the team delivering it."
+    },
+    {
+      "title": "Field teams",
+      "body": "Updates happen quickly but rarely reach the system of record."
+    },
+    {
+      "title": "Management",
+      "body": "Decisions wait for reports to be assembled by hand."
+    },
+    {
+      "title": "Data",
+      "body": "Duplicated records drift until nobody knows which is current."
+    }
+  ],
+  "method": [
+    {
+      "title": "Understand",
+      "body": "Study users, workflows, constraints, systems, and goals. Define the real problem."
+    },
+    {
+      "title": "Design",
+      "body": "Define architecture, workflows, integrations, and experience before change becomes expensive."
+    },
+    {
+      "title": "Engineer",
+      "body": "Build, test, and deploy with technologies appropriate to the system."
+    },
+    {
+      "title": "Integrate",
+      "body": "Connect data, tools, infrastructure, and the operating environment."
+    },
+    {
+      "title": "Improve",
+      "body": "Learn from real use and evolve the system as requirements change."
+    }
+  ],
+  "systems": [
+    {
+      "title": "People",
+      "body": "Roles, responsibilities, users and decisions."
+    },
+    {
+      "title": "Processes",
+      "body": "Workflows, handoffs, approvals and operating rules."
+    },
+    {
+      "title": "Data",
+      "body": "Information that stays accurate, useful and available."
+    },
+    {
+      "title": "Technology",
+      "body": "Applications, integrations and infrastructure chosen for the job."
+    }
+  ]
+}

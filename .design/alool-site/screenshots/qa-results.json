@@ -1,0 +1,2526 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "hero",
+          "height": 864
+        },
+        {
+          "class": "proof-strip",
+          "height": 191
+        },
+        {
+          "class": "intro-section",
+          "height": 1532
+        },
+        {
+          "class": "system-section",
+          "height": 1502
+        },
+        {
+          "class": "capabilities",
+          "height": 1126
+        },
+        {
+          "class": "work-section",
+          "height": 3337
+        },
+        {
+          "class": "method-section",
+          "height": 1328
+        },
+        {
+          "class": "about-section",
+          "height": 1197
+        },
+        {
+          "class": "contact-section",
+          "height": 1355
+        }
+      ],
+      "filename": "home-1440.png"
+    },
+    {
+      "route": "/work",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Systems in practice. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 556
+        },
+        {
+          "class": "section",
+          "height": 3254
+        }
+      ],
+      "filename": "work-1440.png"
+    },
+    {
+      "route": "/work/connected-operations-platform",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Regional distribution operations hub — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 689
+        },
+        {
+          "class": "case-summary",
+          "height": 351
+        },
+        {
+          "class": "section",
+          "height": 1380
+        },
+        {
+          "class": "section ink-section",
+          "height": 552
+        },
+        {
+          "class": "section",
+          "height": 658
+        }
+      ],
+      "filename": "work-connected-operations-platform-1440.png"
+    },
+    {
+      "route": "/work/digital-service-experience",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Unified public service request portal — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 653
+        },
+        {
+          "class": "case-summary",
+          "height": 351
+        },
+        {
+          "class": "section",
+          "height": 1410
+        },
+        {
+          "class": "section ink-section",
+          "height": 552
+        },
+        {
+          "class": "section",
+          "height": 708
+        }
+      ],
+      "filename": "work-digital-service-experience-1440.png"
+    },
+    {
+      "route": "/work/purpose-built-workflow",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Field inspection and compliance workflow — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 653
+        },
+        {
+          "class": "case-summary",
+          "height": 374
+        },
+        {
+          "class": "section",
+          "height": 1350
+        },
+        {
+          "class": "section ink-section",
+          "height": 552
+        },
+        {
+          "class": "section",
+          "height": 708
+        }
+      ],
+      "filename": "work-purpose-built-workflow-1440.png"
+    },
+    {
+      "route": "/services",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Work that connects. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 556
+        },
+        {
+          "class": "section green-section",
+          "height": 677
+        },
+        {
+          "class": "section",
+          "height": 693
+        }
+      ],
+      "filename": "services-1440.png"
+    },
+    {
+      "route": "/services/custom-software",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Custom software | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 520
+        },
+        {
+          "class": "section",
+          "height": 1697
+        },
+        {
+          "class": "section ink-section",
+          "height": 811
+        },
+        {
+          "class": "section",
+          "height": 634
+        },
+        {
+          "class": "section",
+          "height": 512
+        }
+      ],
+      "filename": "services-custom-software-1440.png"
+    },
+    {
+      "route": "/services/business-systems",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Business systems & digital transformation | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 617
+        },
+        {
+          "class": "section",
+          "height": 1697
+        },
+        {
+          "class": "section ink-section",
+          "height": 811
+        },
+        {
+          "class": "section",
+          "height": 634
+        },
+        {
+          "class": "section",
+          "height": 512
+        }
+      ],
+      "filename": "services-business-systems-1440.png"
+    },
+    {
+      "route": "/services/digital-experiences",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Digital experiences | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 520
+        },
+        {
+          "class": "section",
+          "height": 1598
+        },
+        {
+          "class": "section ink-section",
+          "height": 811
+        },
+        {
+          "class": "section",
+          "height": 634
+        },
+        {
+          "class": "section",
+          "height": 512
+        }
+      ],
+      "filename": "services-digital-experiences-1440.png"
+    },
+    {
+      "route": "/services/technology-consulting",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Technology consulting & modernization | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 617
+        },
+        {
+          "class": "section",
+          "height": 1697
+        },
+        {
+          "class": "section ink-section",
+          "height": 811
+        },
+        {
+          "class": "section",
+          "height": 590
+        },
+        {
+          "class": "section",
+          "height": 512
+        }
+      ],
+      "filename": "services-technology-consulting-1440.png"
+    },
+    {
+      "route": "/industries",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Context changes the system. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 653
+        },
+        {
+          "class": "section",
+          "height": 836
+        },
+        {
+          "class": "section",
+          "height": 742
+        }
+      ],
+      "filename": "industries-1440.png"
+    },
+    {
+      "route": "/industries/business-enterprise",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Business & enterprise | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 556
+        },
+        {
+          "class": "section",
+          "height": 967
+        },
+        {
+          "class": "section ink-section",
+          "height": 612
+        },
+        {
+          "class": "section",
+          "height": 1246
+        },
+        {
+          "class": "section",
+          "height": 555
+        }
+      ],
+      "filename": "industries-business-enterprise-1440.png"
+    },
+    {
+      "route": "/industries/government",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Government & public sector | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 617
+        },
+        {
+          "class": "section",
+          "height": 918
+        },
+        {
+          "class": "section ink-section",
+          "height": 612
+        },
+        {
+          "class": "section",
+          "height": 1275
+        },
+        {
+          "class": "section",
+          "height": 532
+        }
+      ],
+      "filename": "industries-government-1440.png"
+    },
+    {
+      "route": "/industries/development",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "NGOs & development organizations | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 617
+        },
+        {
+          "class": "section",
+          "height": 918
+        },
+        {
+          "class": "section ink-section",
+          "height": 612
+        },
+        {
+          "class": "section",
+          "height": 1255
+        },
+        {
+          "class": "section",
+          "height": 555
+        }
+      ],
+      "filename": "industries-development-1440.png"
+    },
+    {
+      "route": "/industries/startups",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Startups & technology ventures | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 653
+        },
+        {
+          "class": "section",
+          "height": 918
+        },
+        {
+          "class": "section ink-section",
+          "height": 612
+        },
+        {
+          "class": "section",
+          "height": 1165
+        },
+        {
+          "class": "section",
+          "height": 555
+        }
+      ],
+      "filename": "industries-startups-1440.png"
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Technology should fit the organization. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 689
+        },
+        {
+          "class": "section",
+          "height": 910
+        },
+        {
+          "class": "about-section",
+          "height": 1197
+        },
+        {
+          "class": "section",
+          "height": 881
+        },
+        {
+          "class": "section origin",
+          "height": 604
+        }
+      ],
+      "filename": "about-1440.png"
+    },
+    {
+      "route": "/about/how-we-work",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Clarity before complexity. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 556
+        },
+        {
+          "class": "section",
+          "height": 615
+        },
+        {
+          "class": "section",
+          "height": 2683
+        },
+        {
+          "class": "section green-section",
+          "height": 561
+        }
+      ],
+      "filename": "about-how-we-work-1440.png"
+    },
+    {
+      "route": "/insights",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Insights | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 653
+        },
+        {
+          "class": "section",
+          "height": 459
+        }
+      ],
+      "filename": "insights-1440.png"
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Tell us what you’re working on. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 653
+        },
+        {
+          "class": "section",
+          "height": 1212
+        }
+      ],
+      "filename": "contact-1440.png"
+    },
+    {
+      "route": "/privacy",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Privacy. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 520
+        },
+        {
+          "class": "section",
+          "height": 1028
+        }
+      ],
+      "filename": "privacy-1440.png"
+    },
+    {
+      "route": "/terms",
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "title": "Terms. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 520
+        },
+        {
+          "class": "section",
+          "height": 1028
+        }
+      ],
+      "filename": "terms-1440.png"
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "hero",
+          "height": 864
+        },
+        {
+          "class": "proof-strip",
+          "height": 191
+        },
+        {
+          "class": "intro-section",
+          "height": 1234
+        },
+        {
+          "class": "system-section",
+          "height": 1233
+        },
+        {
+          "class": "capabilities",
+          "height": 944
+        },
+        {
+          "class": "work-section",
+          "height": 2465
+        },
+        {
+          "class": "method-section",
+          "height": 1095
+        },
+        {
+          "class": "about-section",
+          "height": 1016
+        },
+        {
+          "class": "contact-section",
+          "height": 1257
+        }
+      ],
+      "filename": "home-1024.png"
+    },
+    {
+      "route": "/work",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Systems in practice. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 424
+        },
+        {
+          "class": "section",
+          "height": 2445
+        }
+      ],
+      "filename": "work-1024.png"
+    },
+    {
+      "route": "/work/connected-operations-platform",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Regional distribution operations hub — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 519
+        },
+        {
+          "class": "case-summary",
+          "height": 374
+        },
+        {
+          "class": "section",
+          "height": 1336
+        },
+        {
+          "class": "section ink-section",
+          "height": 485
+        },
+        {
+          "class": "section",
+          "height": 554
+        }
+      ],
+      "filename": "work-connected-operations-platform-1024.png"
+    },
+    {
+      "route": "/work/digital-service-experience",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Unified public service request portal — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 493
+        },
+        {
+          "class": "case-summary",
+          "height": 374
+        },
+        {
+          "class": "section",
+          "height": 1336
+        },
+        {
+          "class": "section ink-section",
+          "height": 485
+        },
+        {
+          "class": "section",
+          "height": 590
+        }
+      ],
+      "filename": "work-digital-service-experience-1024.png"
+    },
+    {
+      "route": "/work/purpose-built-workflow",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Field inspection and compliance workflow — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 493
+        },
+        {
+          "class": "case-summary",
+          "height": 374
+        },
+        {
+          "class": "section",
+          "height": 1306
+        },
+        {
+          "class": "section ink-section",
+          "height": 485
+        },
+        {
+          "class": "section",
+          "height": 620
+        }
+      ],
+      "filename": "work-purpose-built-workflow-1024.png"
+    },
+    {
+      "route": "/services",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Work that connects. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 424
+        },
+        {
+          "class": "section green-section",
+          "height": 620
+        },
+        {
+          "class": "section",
+          "height": 643
+        }
+      ],
+      "filename": "services-1024.png"
+    },
+    {
+      "route": "/services/custom-software",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Custom software | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 397
+        },
+        {
+          "class": "section",
+          "height": 1454
+        },
+        {
+          "class": "section ink-section",
+          "height": 736
+        },
+        {
+          "class": "section",
+          "height": 559
+        },
+        {
+          "class": "section",
+          "height": 404
+        }
+      ],
+      "filename": "services-custom-software-1024.png"
+    },
+    {
+      "route": "/services/business-systems",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Business systems & digital transformation | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 466
+        },
+        {
+          "class": "section",
+          "height": 1479
+        },
+        {
+          "class": "section ink-section",
+          "height": 766
+        },
+        {
+          "class": "section",
+          "height": 559
+        },
+        {
+          "class": "section",
+          "height": 404
+        }
+      ],
+      "filename": "services-business-systems-1024.png"
+    },
+    {
+      "route": "/services/digital-experiences",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Digital experiences | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 397
+        },
+        {
+          "class": "section",
+          "height": 1438
+        },
+        {
+          "class": "section ink-section",
+          "height": 766
+        },
+        {
+          "class": "section",
+          "height": 559
+        },
+        {
+          "class": "section",
+          "height": 404
+        }
+      ],
+      "filename": "services-digital-experiences-1024.png"
+    },
+    {
+      "route": "/services/technology-consulting",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Technology consulting & modernization | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 466
+        },
+        {
+          "class": "section",
+          "height": 1479
+        },
+        {
+          "class": "section ink-section",
+          "height": 766
+        },
+        {
+          "class": "section",
+          "height": 515
+        },
+        {
+          "class": "section",
+          "height": 404
+        }
+      ],
+      "filename": "services-technology-consulting-1024.png"
+    },
+    {
+      "route": "/industries",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Context changes the system. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 493
+        },
+        {
+          "class": "section",
+          "height": 709
+        },
+        {
+          "class": "section",
+          "height": 547
+        }
+      ],
+      "filename": "industries-1024.png"
+    },
+    {
+      "route": "/industries/business-enterprise",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Business & enterprise | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 424
+        },
+        {
+          "class": "section",
+          "height": 747
+        },
+        {
+          "class": "section ink-section",
+          "height": 535
+        },
+        {
+          "class": "section",
+          "height": 1129
+        },
+        {
+          "class": "section",
+          "height": 447
+        }
+      ],
+      "filename": "industries-business-enterprise-1024.png"
+    },
+    {
+      "route": "/industries/government",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Government & public sector | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 466
+        },
+        {
+          "class": "section",
+          "height": 747
+        },
+        {
+          "class": "section ink-section",
+          "height": 535
+        },
+        {
+          "class": "section",
+          "height": 1158
+        },
+        {
+          "class": "section",
+          "height": 447
+        }
+      ],
+      "filename": "industries-government-1024.png"
+    },
+    {
+      "route": "/industries/development",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "NGOs & development organizations | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 466
+        },
+        {
+          "class": "section",
+          "height": 711
+        },
+        {
+          "class": "section ink-section",
+          "height": 535
+        },
+        {
+          "class": "section",
+          "height": 1093
+        },
+        {
+          "class": "section",
+          "height": 447
+        }
+      ],
+      "filename": "industries-development-1024.png"
+    },
+    {
+      "route": "/industries/startups",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Startups & technology ventures | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 493
+        },
+        {
+          "class": "section",
+          "height": 747
+        },
+        {
+          "class": "section ink-section",
+          "height": 535
+        },
+        {
+          "class": "section",
+          "height": 1093
+        },
+        {
+          "class": "section",
+          "height": 447
+        }
+      ],
+      "filename": "industries-startups-1024.png"
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Technology should fit the organization. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 519
+        },
+        {
+          "class": "section",
+          "height": 837
+        },
+        {
+          "class": "about-section",
+          "height": 1036
+        },
+        {
+          "class": "section",
+          "height": 808
+        },
+        {
+          "class": "section origin",
+          "height": 456
+        }
+      ],
+      "filename": "about-1024.png"
+    },
+    {
+      "route": "/about/how-we-work",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Clarity before complexity. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 424
+        },
+        {
+          "class": "section",
+          "height": 505
+        },
+        {
+          "class": "section",
+          "height": 2508
+        },
+        {
+          "class": "section green-section",
+          "height": 462
+        }
+      ],
+      "filename": "about-how-we-work-1024.png"
+    },
+    {
+      "route": "/insights",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Insights | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 493
+        },
+        {
+          "class": "section",
+          "height": 457
+        }
+      ],
+      "filename": "insights-1024.png"
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Tell us what you’re working on. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 493
+        },
+        {
+          "class": "section",
+          "height": 1156
+        }
+      ],
+      "filename": "contact-1024.png"
+    },
+    {
+      "route": "/privacy",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Privacy. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 397
+        },
+        {
+          "class": "section",
+          "height": 895
+        }
+      ],
+      "filename": "privacy-1024.png"
+    },
+    {
+      "route": "/terms",
+      "width": 1024,
+      "status": 200,
+      "errors": [],
+      "title": "Terms. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 397
+        },
+        {
+          "class": "section",
+          "height": 895
+        }
+      ],
+      "filename": "terms-1024.png"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "hero",
+          "height": 1064
+        },
+        {
+          "class": "proof-strip",
+          "height": 283
+        },
+        {
+          "class": "intro-section",
+          "height": 1020
+        },
+        {
+          "class": "system-section",
+          "height": 1189
+        },
+        {
+          "class": "capabilities",
+          "height": 930
+        },
+        {
+          "class": "work-section",
+          "height": 2050
+        },
+        {
+          "class": "method-section",
+          "height": 1117
+        },
+        {
+          "class": "about-section",
+          "height": 1013
+        },
+        {
+          "class": "contact-section",
+          "height": 1466
+        }
+      ],
+      "filename": "home-768.png"
+    },
+    {
+      "route": "/work",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Systems in practice. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 387
+        },
+        {
+          "class": "section",
+          "height": 1968
+        }
+      ],
+      "filename": "work-768.png"
+    },
+    {
+      "route": "/work/connected-operations-platform",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Regional distribution operations hub — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 465
+        },
+        {
+          "class": "case-summary",
+          "height": 374
+        },
+        {
+          "class": "section",
+          "height": 1258
+        },
+        {
+          "class": "section ink-section",
+          "height": 465
+        },
+        {
+          "class": "section",
+          "height": 573
+        }
+      ],
+      "filename": "work-connected-operations-platform-768.png"
+    },
+    {
+      "route": "/work/digital-service-experience",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Unified public service request portal — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 439
+        },
+        {
+          "class": "case-summary",
+          "height": 397
+        },
+        {
+          "class": "section",
+          "height": 1288
+        },
+        {
+          "class": "section ink-section",
+          "height": 437
+        },
+        {
+          "class": "section",
+          "height": 605
+        }
+      ],
+      "filename": "work-digital-service-experience-768.png"
+    },
+    {
+      "route": "/work/purpose-built-workflow",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Field inspection and compliance workflow — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 439
+        },
+        {
+          "class": "case-summary",
+          "height": 397
+        },
+        {
+          "class": "section",
+          "height": 1228
+        },
+        {
+          "class": "section ink-section",
+          "height": 437
+        },
+        {
+          "class": "section",
+          "height": 605
+        }
+      ],
+      "filename": "work-purpose-built-workflow-768.png"
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Work that connects. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 387
+        },
+        {
+          "class": "section green-section",
+          "height": 627
+        },
+        {
+          "class": "section",
+          "height": 717
+        }
+      ],
+      "filename": "services-768.png"
+    },
+    {
+      "route": "/services/custom-software",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Custom software | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 361
+        },
+        {
+          "class": "section",
+          "height": 1391
+        },
+        {
+          "class": "section ink-section",
+          "height": 828
+        },
+        {
+          "class": "section",
+          "height": 652
+        },
+        {
+          "class": "section",
+          "height": 372
+        }
+      ],
+      "filename": "services-custom-software-768.png"
+    },
+    {
+      "route": "/services/business-systems",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Business systems & digital transformation | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 413
+        },
+        {
+          "class": "section",
+          "height": 1391
+        },
+        {
+          "class": "section ink-section",
+          "height": 828
+        },
+        {
+          "class": "section",
+          "height": 652
+        },
+        {
+          "class": "section",
+          "height": 348
+        }
+      ],
+      "filename": "services-business-systems-768.png"
+    },
+    {
+      "route": "/services/digital-experiences",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Digital experiences | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 361
+        },
+        {
+          "class": "section",
+          "height": 1359
+        },
+        {
+          "class": "section ink-section",
+          "height": 828
+        },
+        {
+          "class": "section",
+          "height": 652
+        },
+        {
+          "class": "section",
+          "height": 372
+        }
+      ],
+      "filename": "services-digital-experiences-768.png"
+    },
+    {
+      "route": "/services/technology-consulting",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Technology consulting & modernization | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 413
+        },
+        {
+          "class": "section",
+          "height": 1391
+        },
+        {
+          "class": "section ink-section",
+          "height": 828
+        },
+        {
+          "class": "section",
+          "height": 608
+        },
+        {
+          "class": "section",
+          "height": 372
+        }
+      ],
+      "filename": "services-technology-consulting-768.png"
+    },
+    {
+      "route": "/industries",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Context changes the system. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 439
+        },
+        {
+          "class": "section",
+          "height": 864
+        },
+        {
+          "class": "section",
+          "height": 595
+        }
+      ],
+      "filename": "industries-768.png"
+    },
+    {
+      "route": "/industries/business-enterprise",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Business & enterprise | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 387
+        },
+        {
+          "class": "section",
+          "height": 734
+        },
+        {
+          "class": "section ink-section",
+          "height": 487
+        },
+        {
+          "class": "section",
+          "height": 1069
+        },
+        {
+          "class": "section",
+          "height": 415
+        }
+      ],
+      "filename": "industries-business-enterprise-768.png"
+    },
+    {
+      "route": "/industries/government",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Government & public sector | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 413
+        },
+        {
+          "class": "section",
+          "height": 734
+        },
+        {
+          "class": "section ink-section",
+          "height": 487
+        },
+        {
+          "class": "section",
+          "height": 1098
+        },
+        {
+          "class": "section",
+          "height": 391
+        }
+      ],
+      "filename": "industries-government-768.png"
+    },
+    {
+      "route": "/industries/development",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "NGOs & development organizations | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 413
+        },
+        {
+          "class": "section",
+          "height": 734
+        },
+        {
+          "class": "section ink-section",
+          "height": 487
+        },
+        {
+          "class": "section",
+          "height": 1096
+        },
+        {
+          "class": "section",
+          "height": 415
+        }
+      ],
+      "filename": "industries-development-768.png"
+    },
+    {
+      "route": "/industries/startups",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Startups & technology ventures | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 439
+        },
+        {
+          "class": "section",
+          "height": 734
+        },
+        {
+          "class": "section ink-section",
+          "height": 487
+        },
+        {
+          "class": "section",
+          "height": 1037
+        },
+        {
+          "class": "section",
+          "height": 391
+        }
+      ],
+      "filename": "industries-startups-768.png"
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Technology should fit the organization. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 465
+        },
+        {
+          "class": "section",
+          "height": 818
+        },
+        {
+          "class": "about-section",
+          "height": 1013
+        },
+        {
+          "class": "section",
+          "height": 825
+        },
+        {
+          "class": "section origin",
+          "height": 560
+        }
+      ],
+      "filename": "about-768.png"
+    },
+    {
+      "route": "/about/how-we-work",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Clarity before complexity. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 387
+        },
+        {
+          "class": "section",
+          "height": 464
+        },
+        {
+          "class": "section",
+          "height": 2430
+        },
+        {
+          "class": "section green-section",
+          "height": 523
+        }
+      ],
+      "filename": "about-how-we-work-768.png"
+    },
+    {
+      "route": "/insights",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Insights | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 439
+        },
+        {
+          "class": "section",
+          "height": 402
+        }
+      ],
+      "filename": "insights-768.png"
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Tell us what you’re working on. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 439
+        },
+        {
+          "class": "section",
+          "height": 1659
+        }
+      ],
+      "filename": "contact-768.png"
+    },
+    {
+      "route": "/privacy",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Privacy. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 361
+        },
+        {
+          "class": "section",
+          "height": 840
+        }
+      ],
+      "filename": "privacy-768.png"
+    },
+    {
+      "route": "/terms",
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "title": "Terms. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 361
+        },
+        {
+          "class": "section",
+          "height": 840
+        }
+      ],
+      "filename": "terms-768.png"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "hero",
+          "height": 1078
+        },
+        {
+          "class": "proof-strip",
+          "height": 556
+        },
+        {
+          "class": "intro-section",
+          "height": 1904
+        },
+        {
+          "class": "system-section",
+          "height": 1804
+        },
+        {
+          "class": "capabilities",
+          "height": 1161
+        },
+        {
+          "class": "work-section",
+          "height": 2189
+        },
+        {
+          "class": "method-section",
+          "height": 1564
+        },
+        {
+          "class": "about-section",
+          "height": 992
+        },
+        {
+          "class": "contact-section",
+          "height": 1522
+        }
+      ],
+      "filename": "home-390.png"
+    },
+    {
+      "route": "/work",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Systems in practice. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 483
+        },
+        {
+          "class": "section",
+          "height": 2187
+        }
+      ],
+      "filename": "work-390.png"
+    },
+    {
+      "route": "/work/connected-operations-platform",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Regional distribution operations hub — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 529
+        },
+        {
+          "class": "case-summary",
+          "height": 613
+        },
+        {
+          "class": "section",
+          "height": 1706
+        },
+        {
+          "class": "section ink-section",
+          "height": 654
+        },
+        {
+          "class": "section",
+          "height": 799
+        }
+      ],
+      "filename": "work-connected-operations-platform-390.png"
+    },
+    {
+      "route": "/work/digital-service-experience",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Unified public service request portal — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 503
+        },
+        {
+          "class": "case-summary",
+          "height": 613
+        },
+        {
+          "class": "section",
+          "height": 1683
+        },
+        {
+          "class": "section ink-section",
+          "height": 654
+        },
+        {
+          "class": "section",
+          "height": 764
+        }
+      ],
+      "filename": "work-digital-service-experience-390.png"
+    },
+    {
+      "route": "/work/purpose-built-workflow",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Field inspection and compliance workflow — illustrative concept | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 533
+        },
+        {
+          "class": "case-summary",
+          "height": 613
+        },
+        {
+          "class": "section",
+          "height": 1586
+        },
+        {
+          "class": "section ink-section",
+          "height": 654
+        },
+        {
+          "class": "section",
+          "height": 799
+        }
+      ],
+      "filename": "work-purpose-built-workflow-390.png"
+    },
+    {
+      "route": "/services",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Work that connects. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 430
+        },
+        {
+          "class": "section green-section",
+          "height": 790
+        },
+        {
+          "class": "section",
+          "height": 1014
+        }
+      ],
+      "filename": "services-390.png"
+    },
+    {
+      "route": "/services/custom-software",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Custom software | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 404
+        },
+        {
+          "class": "section",
+          "height": 1899
+        },
+        {
+          "class": "section ink-section",
+          "height": 1069
+        },
+        {
+          "class": "section",
+          "height": 800
+        },
+        {
+          "class": "section",
+          "height": 523
+        }
+      ],
+      "filename": "services-custom-software-390.png"
+    },
+    {
+      "route": "/services/business-systems",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Business systems & digital transformation | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 450
+        },
+        {
+          "class": "section",
+          "height": 1894
+        },
+        {
+          "class": "section ink-section",
+          "height": 1076
+        },
+        {
+          "class": "section",
+          "height": 800
+        },
+        {
+          "class": "section",
+          "height": 523
+        }
+      ],
+      "filename": "services-business-systems-390.png"
+    },
+    {
+      "route": "/services/digital-experiences",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Digital experiences | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 404
+        },
+        {
+          "class": "section",
+          "height": 1853
+        },
+        {
+          "class": "section ink-section",
+          "height": 1129
+        },
+        {
+          "class": "section",
+          "height": 770
+        },
+        {
+          "class": "section",
+          "height": 523
+        }
+      ],
+      "filename": "services-digital-experiences-390.png"
+    },
+    {
+      "route": "/services/technology-consulting",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Technology consulting & modernization | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 450
+        },
+        {
+          "class": "section",
+          "height": 1853
+        },
+        {
+          "class": "section ink-section",
+          "height": 1099
+        },
+        {
+          "class": "section",
+          "height": 726
+        },
+        {
+          "class": "section",
+          "height": 523
+        }
+      ],
+      "filename": "services-technology-consulting-390.png"
+    },
+    {
+      "route": "/industries",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Context changes the system. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 430
+        },
+        {
+          "class": "section",
+          "height": 972
+        },
+        {
+          "class": "section",
+          "height": 809
+        }
+      ],
+      "filename": "industries-390.png"
+    },
+    {
+      "route": "/industries/business-enterprise",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Business & enterprise | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 430
+        },
+        {
+          "class": "section",
+          "height": 937
+        },
+        {
+          "class": "section ink-section",
+          "height": 731
+        },
+        {
+          "class": "section",
+          "height": 1526
+        },
+        {
+          "class": "section",
+          "height": 531
+        }
+      ],
+      "filename": "industries-business-enterprise-390.png"
+    },
+    {
+      "route": "/industries/government",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Government & public sector | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 404
+        },
+        {
+          "class": "section",
+          "height": 961
+        },
+        {
+          "class": "section ink-section",
+          "height": 731
+        },
+        {
+          "class": "section",
+          "height": 1550
+        },
+        {
+          "class": "section",
+          "height": 531
+        }
+      ],
+      "filename": "industries-government-390.png"
+    },
+    {
+      "route": "/industries/development",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "NGOs & development organizations | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 450
+        },
+        {
+          "class": "section",
+          "height": 925
+        },
+        {
+          "class": "section ink-section",
+          "height": 731
+        },
+        {
+          "class": "section",
+          "height": 1585
+        },
+        {
+          "class": "section",
+          "height": 531
+        }
+      ],
+      "filename": "industries-development-390.png"
+    },
+    {
+      "route": "/industries/startups",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Startups & technology ventures | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 477
+        },
+        {
+          "class": "section",
+          "height": 937
+        },
+        {
+          "class": "section ink-section",
+          "height": 731
+        },
+        {
+          "class": "section",
+          "height": 1420
+        },
+        {
+          "class": "section",
+          "height": 531
+        }
+      ],
+      "filename": "industries-startups-390.png"
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Technology should fit the organization. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 529
+        },
+        {
+          "class": "section",
+          "height": 1165
+        },
+        {
+          "class": "about-section",
+          "height": 1012
+        },
+        {
+          "class": "section",
+          "height": 1081
+        },
+        {
+          "class": "section origin",
+          "height": 702
+        }
+      ],
+      "filename": "about-390.png"
+    },
+    {
+      "route": "/about/how-we-work",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Clarity before complexity. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 457
+        },
+        {
+          "class": "section",
+          "height": 844
+        },
+        {
+          "class": "section",
+          "height": 3048
+        },
+        {
+          "class": "section green-section",
+          "height": 659
+        }
+      ],
+      "filename": "about-how-we-work-390.png"
+    },
+    {
+      "route": "/insights",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Insights | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 430
+        },
+        {
+          "class": "section",
+          "height": 412
+        }
+      ],
+      "filename": "insights-390.png"
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Tell us what you’re working on. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 477
+        },
+        {
+          "class": "section",
+          "height": 1821
+        }
+      ],
+      "filename": "contact-390.png"
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Privacy. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 358
+        },
+        {
+          "class": "section",
+          "height": 1116
+        }
+      ],
+      "filename": "privacy-390.png"
+    },
+    {
+      "route": "/terms",
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "title": "Terms. | Alool Technologies",
+      "h1": 1,
+      "overflow": [],
+      "brokenImages": [],
+      "sections": [
+        {
+          "class": "page-hero",
+          "height": 358
+        },
+        {
+          "class": "section",
+          "height": 1028
+        }
+      ],
+      "filename": "terms-390.png"
+    }
+  ],
+  "interaction": {
+    "menuVisible": true,
+    "escapeClosed": true,
+    "errorsShown": 4,
+    "success": true
+  }
+}

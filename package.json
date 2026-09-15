@@ -6,12 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:local": "node scripts/local-backend.mjs",
+    "db:stop": "node scripts/local-backend.mjs stop",
+    "cms:types": "node --env-file=.env.local node_modules/payload/bin.js generate:types",
+    "cms:importmap": "node --env-file=.env.local node_modules/payload/bin.js generate:importmap",
+    "cms:migrate": "node --env-file=.env.local node_modules/payload/bin.js migrate",
+    "cms:seed": "node --env-file=.env.local --import tsx scripts/seed-cms.ts"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "3.89.0",
+    "@payloadcms/next": "3.89.0",
+    "@payloadcms/richtext-lexical": "3.89.0",
+    "graphql": "16.14.2",
     "next": "16.3.5",
+    "payload": "3.89.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "sharp": "0.35.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -21,6 +33,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
+    "tsx": "4.22.4",
     "typescript": "^5"
-  }
+  },
+  "type": "module",
+  "overrides": { "dompurify": "3.4.15" }
 }
