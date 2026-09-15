@@ -140,6 +140,8 @@ export interface UserAuthOperations {
   };
 }
 /**
+ * Manage editor access and account roles.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "users".
  */
@@ -167,12 +169,20 @@ export interface User {
   collection: 'users';
 }
 /**
+ * Upload approved website imagery. Every asset needs useful alternative text.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "media".
  */
 export interface Media {
   id: number;
+  /**
+   * Describe the image’s purpose for someone who cannot see it.
+   */
   alt: string;
+  /**
+   * Photographer, source, or license note when applicable.
+   */
   credit?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -205,7 +215,7 @@ export interface Media {
   };
 }
 /**
- * Edit copy within the approved layouts. Entry labels help locate the text on each page.
+ * Edit copy within the approved layouts. Entry labels show where each line appears.
  *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "pages".
@@ -218,6 +228,9 @@ export interface Page {
    */
   path: string;
   description?: string | null;
+  /**
+   * Open a labeled block to edit its copy, then save a draft and preview the page.
+   */
   entries?:
     | {
         key: string;
@@ -231,6 +244,8 @@ export interface Page {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Manage Alool’s service offer and the detail shown on each service page.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "services".
  */
@@ -283,6 +298,8 @@ export interface Service {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Explain how the systems-led approach adapts to different operating contexts.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "industries".
  */
@@ -336,6 +353,8 @@ export interface Industry {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Representative work and approved project stories. Keep illustrative entries clearly labeled.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "projects".
  */
@@ -382,6 +401,8 @@ export interface Project {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Draft and publish approved thinking from named authors.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "articles".
  */
@@ -416,6 +437,8 @@ export interface Article {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Review project conversations received through the website contact form.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "inquiries".
  */
@@ -863,6 +886,8 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   createdAt?: T;
 }
 /**
+ * Manage structured homepage sections outside the main page-copy entry.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "home-modules".
  */
@@ -894,6 +919,8 @@ export interface HomeModule {
   createdAt?: string | null;
 }
 /**
+ * Control shared company, footer, and navigation content.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "site-settings".
  */
@@ -913,6 +940,8 @@ export interface SiteSetting {
   createdAt?: string | null;
 }
 /**
+ * Maintain the ordered working-method steps used across the site.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "working-method".
  */

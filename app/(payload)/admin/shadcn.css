@@ -1,0 +1,159 @@
+/* Tailwind for the dashboard only.
+   preflight.css is deliberately NOT imported: its reset would strip Payload's
+   own admin styling. theme + utilities give us the class layer with no reset. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+
+/* Payload switches themes with html[data-theme], not a .dark class,
+   so shadcn's dark: variants are pointed at the attribute instead. */
+@custom-variant dark (&:is(html[data-theme='dark'] *));
+
+/* source(none) disables Tailwind's automatic project-wide scanning, so only
+   the dashboard's own files generate utilities. This matters: Payload styles
+   its list views with a plain .table class, and a Tailwind `.table` utility
+   would land in a later cascade layer and override it. Keep this list narrow. */
+@source "../../../components/admin";
+
+/* shadcn surface tokens, carrying the Alool palette from DESIGN.md.
+   Scoped to .alool-dash so no Payload view inherits them. */
+.alool-dash {
+  /* Dark values live here once. Both dark selectors below map to them, so the
+     two can no longer drift apart the way duplicated blocks did. */
+  --dark-background: #0b100e;
+  --dark-foreground: #f4f3ee;
+  --dark-card: #1a221e;
+  --dark-muted: #232c27;
+  --dark-muted-foreground: #9ba49d;
+  --dark-primary: #2b8e6e;
+  --dark-primary-foreground: #06120d;
+  --dark-accent: #49a885;
+  --dark-border: #2f3a34;
+  --dark-chart-published: #2b8e6e;
+  --dark-chart-drafts: #4a5a52;
+
+  --background: #eeede7;
+  --foreground: #101412;
+  --card: #fbfaf7;
+  --card-foreground: #101412;
+  --muted: #ebeae4;
+  --muted-foreground: #555b57;
+  --primary: #176b52;
+  --primary-foreground: #ffffff;
+  --accent: #2b8e6e;
+  --border: #d8d7d0;
+  --ring: #2b8e6e;
+  --chart-published: #176b52;
+  --chart-drafts: #9bb3a8;
+  --radius: 0.5rem;
+}
+
+html[data-theme='dark'] .alool-dash {
+  --background: var(--dark-background);
+  --foreground: var(--dark-foreground);
+  --card: var(--dark-card);
+  --card-foreground: var(--dark-foreground);
+  --muted: var(--dark-muted);
+  --muted-foreground: var(--dark-muted-foreground);
+  --primary: var(--dark-primary);
+  --primary-foreground: var(--dark-primary-foreground);
+  --accent: var(--dark-accent);
+  --border: var(--dark-border);
+  --ring: var(--dark-accent);
+  --chart-published: var(--dark-chart-published);
+  --chart-drafts: var(--dark-chart-drafts);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme='light']) .alool-dash {
+    --background: var(--dark-background);
+    --foreground: var(--dark-foreground);
+    --card: var(--dark-card);
+    --card-foreground: var(--dark-foreground);
+    --muted: var(--dark-muted);
+    --muted-foreground: var(--dark-muted-foreground);
+    --primary: var(--dark-primary);
+    --primary-foreground: var(--dark-primary-foreground);
+    --accent: var(--dark-accent);
+    --border: var(--dark-border);
+    --ring: var(--dark-accent);
+    --chart-published: var(--dark-chart-published);
+    --chart-drafts: var(--dark-chart-drafts);
+  }
+}
+
+/* preflight is skipped, so browser default margins would otherwise apply
+   inside the cards. Scoped to .alool-dash so Payload's views keep theirs. */
+.alool-dash :where(h1, h2, h3, h4, p, dl, dd, ul, ol) {
+  margin: 0;
+  padding: 0;
+}
+
+.alool-dash :where(ul, ol) {
+  list-style: none;
+}
+
+.alool-dash :where(a) {
+  color: inherit;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+}
+
+.alool-dash {
+  --sidebar: hsl(0 0% 98%);
+  --sidebar-foreground: hsl(240 5.3% 26.1%);
+  --sidebar-primary: hsl(240 5.9% 10%);
+  --sidebar-primary-foreground: hsl(0 0% 98%);
+  --sidebar-accent: hsl(240 4.8% 95.9%);
+  --sidebar-accent-foreground: hsl(240 5.9% 10%);
+  --sidebar-border: hsl(220 13% 91%);
+  --sidebar-ring: hsl(217.2 91.2% 59.8%);
+}
+
+html[data-theme='dark'] .alool-dash {
+  --sidebar: hsl(240 5.9% 10%);
+  --sidebar-foreground: hsl(240 4.8% 95.9%);
+  --sidebar-primary: hsl(224.3 76.3% 48%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(240 3.7% 15.9%);
+  --sidebar-accent-foreground: hsl(240 4.8% 95.9%);
+  --sidebar-border: hsl(240 3.7% 15.9%);
+  --sidebar-ring: hsl(217.2 91.2% 59.8%);
+}
+
+@layer utilities {
+  /* Tailwind's scanner reads the bare token "table" out of table.tsx
+     (`data-slot="table"`, `ComponentProps<"table">`) and emits
+     .table{display:table}. Payload uses .table as the class on its list-view
+     wrapper and never declares display on it at desktop, so that utility
+     silently turned every list into a CSS table.
+     This sits in the same layer at higher specificity, so it beats the utility
+     while Payload's own responsive .table{display:flex} rules — in the later
+     `payload` layer — still win over both. The dashboard never uses .table as
+     a class, so it is unaffected. */
+  :root .table {
+    display: block;
+  }
+}

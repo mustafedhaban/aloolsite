@@ -1,3 +1,4 @@
+import { ContentRowLabel as ContentRowLabel_29e1c3d7b6cd24eee07c76805164eab3 } from '../../../components/admin/ContentRowLabel'
 import { RscEntryLexicalCell as RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7b07e } from '@payloadcms/richtext-lexical/rsc'
 import { RscEntryLexicalField as RscEntryLexicalField_44fe37237e0ebf4470c9990d8cb7b07e } from '@payloadcms/richtext-lexical/rsc'
 import { LexicalDiffComponent as LexicalDiffComponent_44fe37237e0ebf4470c9990d8cb7b07e } from '@payloadcms/richtext-lexical/rsc'
@@ -21,10 +22,16 @@ import { StrikethroughFeatureClient as StrikethroughFeatureClient_e70f5e05f09f93
 import { UnderlineFeatureClient as UnderlineFeatureClient_e70f5e05f09f93e00b997edb1ef0c864 } from '@payloadcms/richtext-lexical/client'
 import { BoldFeatureClient as BoldFeatureClient_e70f5e05f09f93e00b997edb1ef0c864 } from '@payloadcms/richtext-lexical/client'
 import { ItalicFeatureClient as ItalicFeatureClient_e70f5e05f09f93e00b997edb1ef0c864 } from '@payloadcms/richtext-lexical/client'
+import { AloolIcon as AloolIcon_4b00ff1326ec42bc2d00f9d8df2b45ea } from '../../../components/admin/AloolAdmin'
+import { AloolLogo as AloolLogo_4b00ff1326ec42bc2d00f9d8df2b45ea } from '../../../components/admin/AloolAdmin'
+import { AdminNavFooter as AdminNavFooter_4b00ff1326ec42bc2d00f9d8df2b45ea } from '../../../components/admin/AloolAdmin'
+import { AdminDashboard as AdminDashboard_4b00ff1326ec42bc2d00f9d8df2b45ea } from '../../../components/admin/AloolAdmin'
+import { LoginIntro as LoginIntro_4b00ff1326ec42bc2d00f9d8df2b45ea } from '../../../components/admin/AloolAdmin'
 import { CollectionCards as CollectionCards_f9c02e79a4aed9a3924487c0cd4cafb1 } from '@payloadcms/next/rsc'
 
 /** @type import('payload').ImportMap */
 export const importMap = {
+  "/components/admin/ContentRowLabel#ContentRowLabel": ContentRowLabel_29e1c3d7b6cd24eee07c76805164eab3,
   "@payloadcms/richtext-lexical/rsc#RscEntryLexicalCell": RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7b07e,
   "@payloadcms/richtext-lexical/rsc#RscEntryLexicalField": RscEntryLexicalField_44fe37237e0ebf4470c9990d8cb7b07e,
   "@payloadcms/richtext-lexical/rsc#LexicalDiffComponent": LexicalDiffComponent_44fe37237e0ebf4470c9990d8cb7b07e,
@@ -48,5 +55,10 @@ export const importMap = {
   "@payloadcms/richtext-lexical/client#UnderlineFeatureClient": UnderlineFeatureClient_e70f5e05f09f93e00b997edb1ef0c864,
   "@payloadcms/richtext-lexical/client#BoldFeatureClient": BoldFeatureClient_e70f5e05f09f93e00b997edb1ef0c864,
   "@payloadcms/richtext-lexical/client#ItalicFeatureClient": ItalicFeatureClient_e70f5e05f09f93e00b997edb1ef0c864,
+  "/components/admin/AloolAdmin#AloolIcon": AloolIcon_4b00ff1326ec42bc2d00f9d8df2b45ea,
+  "/components/admin/AloolAdmin#AloolLogo": AloolLogo_4b00ff1326ec42bc2d00f9d8df2b45ea,
+  "/components/admin/AloolAdmin#AdminNavFooter": AdminNavFooter_4b00ff1326ec42bc2d00f9d8df2b45ea,
+  "/components/admin/AloolAdmin#AdminDashboard": AdminDashboard_4b00ff1326ec42bc2d00f9d8df2b45ea,
+  "/components/admin/AloolAdmin#LoginIntro": LoginIntro_4b00ff1326ec42bc2d00f9d8df2b45ea,
   "@payloadcms/next/rsc#CollectionCards": CollectionCards_f9c02e79a4aed9a3924487c0cd4cafb1
 }

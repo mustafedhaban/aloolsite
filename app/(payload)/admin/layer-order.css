@@ -1,0 +1,7 @@
+/* Cascade layer order for the admin panel. Must be imported before any other
+   admin stylesheet — the first @layer declaration fixes the order.
+   Payload's layers come last so they win any class-name collision with
+   Tailwind's utilities. This is not hypothetical: Tailwind's scanner reads the
+   bare string "table" out of `data-slot="table"` and emits .table{display:table},
+   which would otherwise override Payload's .table{display:flex} list views. */
+@layer theme, utilities, payload-default, payload;
