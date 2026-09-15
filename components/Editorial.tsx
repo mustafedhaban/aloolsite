@@ -12,5 +12,5 @@ export function Workflow({steps,label}:{steps:string[];label:string}) {
 
 export async function RelatedServices({slugs}:{slugs:string[]}) {
   const services=await getServices();
-  return <nav className="related-services" aria-label="Related services">{slugs.map(slug=>{const s=services.find(s=>s.slug===slug);return s?<Link href={`/services/${slug}`} key={slug}><strong>{s.title} ↗</strong><span>{s.intro}</span></Link>:null;})}</nav>;
+  return <nav className="related-services reveal-stagger" aria-label="Related services">{slugs.map(slug=>{const s=services.find(s=>s.slug===slug);return s?<Link href={`/services/${slug}`} key={slug}><strong>{s.title} ↗</strong><span>{s.intro}</span></Link>:null;})}</nav>;
 }

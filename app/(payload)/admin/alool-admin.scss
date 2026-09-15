@@ -44,9 +44,9 @@
     --style-radius-m: 5px;
     --style-radius-l: 8px;
     --font-body: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --alool-green: #176b52;
-    --alool-signal: #2b8e6e;
-    --alool-ink: #101412;
+    --alool-brand: #7703A7;
+    --alool-accent: #FF4B00;
+    --alool-ink: #121016;
     --alool-warm-white: #f4f3ee;
   }
 
@@ -55,8 +55,8 @@
   }
 
   .btn--style-primary {
-    --bg-color: var(--alool-green);
-    --hover-bg: #105c45;
+    --bg-color: var(--alool-brand);
+    --hover-bg: #5C0280;
     --color: #fff;
   }
 
@@ -74,7 +74,7 @@
 
   .card--has-onclick:hover {
     box-shadow: none;
-    border-color: var(--alool-green);
+    border-color: var(--alool-brand);
   }
 
   .collections {
@@ -207,7 +207,7 @@
   }
 
   .alool-nav-footer a:hover {
-    color: var(--alool-signal);
+    color: var(--alool-accent);
   }
 
   .alool-login-intro {
@@ -223,7 +223,7 @@
 
   .alool-kicker {
     margin: 0;
-    color: var(--alool-green);
+    color: var(--alool-brand);
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.14em;
@@ -236,7 +236,7 @@
   .alool-content-row { display: grid; gap: 5px; min-width: 0; line-height: 1.4; }
   .alool-content-row strong { font-weight: 600; }
   .alool-content-row > span { color: var(--theme-elevation-600); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 65vw; font-weight: 400; }
-  .alool-nav-footer a:focus-visible { outline: 2px solid var(--alool-signal); outline-offset: 3px; }
+  .alool-nav-footer a:focus-visible { outline: 2px solid var(--alool-accent); outline-offset: 3px; }
 
   /* Daily editing surfaces. Payload renders these from @payloadcms/ui and
      @payloadcms/next; every class below was confirmed against the shipped
@@ -274,11 +274,11 @@
     inset-block: 3px;
     inset-inline-start: 0;
     width: 2px;
-    background: var(--alool-signal);
+    background: var(--alool-accent);
   }
 
   .nav__link:focus-visible {
-    outline: 2px solid var(--alool-signal);
+    outline: 2px solid var(--alool-accent);
     outline-offset: 2px;
   }
 
@@ -303,7 +303,7 @@
   input:focus-visible,
   textarea:focus-visible,
   select:focus-visible {
-    outline: 2px solid var(--alool-signal);
+    outline: 2px solid var(--alool-accent);
     outline-offset: 1px;
   }
 

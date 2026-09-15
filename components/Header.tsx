@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { nav } from "@/lib/content";
+import { Logo } from "@/components/Logo";
 
 export function Header({navigation=nav}:{navigation?:{label:string;href:string}[]}) {
   const pathname = usePathname();
@@ -17,7 +18,7 @@ export function Header({navigation=nav}:{navigation?:{label:string;href:string}[
       frame = 0;
       const sections = [...document.querySelectorAll('main section, .contact-band, footer')];
       const active = sections.find(e => { const r=e.getBoundingClientRect(); return r.top<=40 && r.bottom>40; });
-      const dark = open || (active instanceof HTMLElement && (active.dataset.theme==='dark' || /ink-section|green-section|contact-band|site-footer/.test(active.className)));
+      const dark = open || (active instanceof HTMLElement && (active.dataset.theme==='dark' || /ink-section|brand-section|contact-band|site-footer/.test(active.className)));
       header.current?.classList.toggle('on-dark',!!dark);
       header.current?.classList.toggle('scrolled',window.scrollY>18);
     };
@@ -49,7 +50,7 @@ export function Header({navigation=nav}:{navigation?:{label:string;href:string}[
   return <>
     <a href="#main" className="skip-link">Skip to content</a>
     <header ref={header} className="site-header"><div className="container nav-shell">
-      <Link className="brand" href="/" aria-label="Alool Technologies home">ALOOL</Link>
+      <Link className="brand" href="/" aria-label="Alool Technologies home"><Logo aria-hidden="true" role={undefined}/></Link>
       <nav className="desktop-nav" aria-label="Primary navigation">{navigation.map(item=><Link key={item.href} href={item.href} aria-current={pathname.startsWith(item.href)?'page':undefined}>{item.label}</Link>)}</nav>
       <Link className="nav-cta" href="/contact">Discuss your project <span aria-hidden="true">↗</span></Link>
       <button ref={toggle} className="menu-toggle" type="button" aria-label={open?'Close navigation menu':'Open navigation menu'} aria-controls="mobile-menu" aria-expanded={open} onClick={()=>setMenuPath(open?null:pathname)}><i aria-hidden="true"/></button>

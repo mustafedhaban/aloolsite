@@ -42,8 +42,8 @@ export default async function Home(){
 
     <section className="intro-section" data-theme="light">
       <div className="wrap">
-        <div className="split-heading"><div><p className="eyebrow">{copy.text18}</p><h2>{copy.text19}</h2></div><p className="lead">{copy.text20}</p></div>
-        <div className="fragmentation">{fragments.map((item,i) => <article className="fragment-card" key={item[0]}><h3>{item[0]}</h3><p>{item[1]}</p><code>{['spreadsheet.xlsx','platform-a.local','crm / inbox','chat / phone','weekly-report.pdf','version_final_v7'][i]}</code></article>)}</div>
+        <div className="split-heading reveal"><div><p className="eyebrow">{copy.text18}</p><h2>{copy.text19}</h2></div><p className="lead">{copy.text20}</p></div>
+        <div className="fragmentation reveal-stagger">{fragments.map((item,i) => <article className="fragment-card" key={item[0]}><h3>{item[0]}</h3><p>{item[1]}</p><code>{['spreadsheet.xlsx','platform-a.local','crm / inbox','chat / phone','weekly-report.pdf','version_final_v7'][i]}</code></article>)}</div>
       </div>
     </section>
 
@@ -55,9 +55,9 @@ export default async function Home(){
 
     <section className="work-section" data-theme="light"><div className="wrap"><div className="work-header"><h2>{copy.text26}</h2><p>{copy.text27}</p><Link href="/work">{copy.text28}</Link></div><ProjectList /></div></section>
 
-    <section className="method-section" data-theme="light"><div className="wrap"><div className="method-head"><h2>{copy.text29}</h2><p>{copy.text30}</p></div><div className="method-list">{method.map((item, index) => <article className="method-step" key={item[0]}><span className="num">0{index + 1}</span><h3>{item[0]}</h3><p>{item[1]}</p></article>)}</div><Link className="text-link" href="/about/how-we-work">{copy.text31}</Link></div></section>
+    <section className="method-section" data-theme="light"><div className="wrap"><div className="method-head"><h2>{copy.text29}</h2><p>{copy.text30}</p></div><div className="method-list reveal-stagger">{method.map((item, index) => <article className="method-step" key={item[0]}><span className="num">0{index + 1}</span><h3>{item[0]}</h3><p>{item[1]}</p></article>)}</div><Link className="text-link" href="/about/how-we-work">{copy.text31}</Link></div></section>
 
-    <section className="about-section" data-theme="dark"><div className="wrap"><div className="about-grid"><h2>{copy.text32}</h2><div className="about-copy"><p>{copy.text33}<em>{copy.text34}</em>{copy.text35}</p><p className="muted">{copy.text36}</p></div></div><Weave /></div></section>
+    <section className="about-section" data-theme="dark"><div className="wrap"><div className="about-grid reveal"><h2>{copy.text32}</h2><div className="about-copy"><p>{copy.text33}<em>{copy.text34}</em>{copy.text35}</p><p className="muted">{copy.text36}</p></div></div><Weave /></div></section>
     <section className="contact-section" data-theme="dark"><div className="wrap contact-grid"><div><span className="eyebrow">{copy.text37}</span><h2>{copy.text38}</h2><p className="contact-intro">{copy.text39}</p></div><ContactForm enabled={process.env.CONTACT_ENABLED==="true"} /></div></section>
   </>;
 }
