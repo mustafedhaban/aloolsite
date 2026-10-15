@@ -1,0 +1,56 @@
+name: Alool cloud verification
+
+on:
+  push:
+    branches: [ci/cloud-verification]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: alool_ci
+          POSTGRES_PASSWORD: alool_ci_only
+          POSTGRES_DB: alool_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U alool_ci -d alool_ci"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      DATABASE_URL: postgresql://alool_ci:alool_ci_only@127.0.0.1:5432/alool_ci
+      PAYLOAD_SECRET: ci-only-not-for-production-0123456789abcdef
+      NEXT_PUBLIC_SERVER_URL: http://127.0.0.1:4173
+      CONTACT_ENABLED: "false"
+      CI: "true"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+      - name: Apply CMS migrations
+        run: node --env-file=/dev/null node_modules/payload/bin.js migrate
+      - name: Seed CMS
+        run: node --import tsx scripts/seed-cms.ts
+      - name: Production build
+        run: npm run build
